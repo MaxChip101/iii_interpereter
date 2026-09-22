@@ -1,15 +1,10 @@
-currently in progress
+
 counts up all the letters of the lowercase alphabet and prints it
 
 97 = _ this is the lowercase a character
 [
-    $ > = _ 1 +
-
+    $ > = _ 1 + puts every character following into the next memory slot
 ]
-
-_0@
-_26.
-_!
-
-character range
-97-122
+_@ goto the first slot
+_26. print the characters from a to z
+_! exit zero

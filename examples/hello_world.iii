@@ -1,0 +1,18 @@
+1:_ set pipe to stdout
+72=_>     H
+101=_>    e
+108=_>    l
+108=_>    l
+111=_>    o
+44=_>     comma
+32=_>      
+119=_>    w
+111=_>    o
+114=_>    r
+108=_>    l
+100=_>    d
+33=_>     exclumation mark
+10=_>     new line
+_@  to start
+14. print text
+_! exit with zero

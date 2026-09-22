@@ -13,12 +13,6 @@ pub fn build(b: *std.Build) void {
         }),
     });
 
-    const is_nix = b.option(bool, "nix", "enable NixOS specific library paths") orelse false;
-
-    if (is_nix) {
-        exe.root_module.addLibraryPath(.{ .cwd_relative = "/run/current-system/sw/lib" });
-    }
-
     b.installArtifact(exe);
     const run_cmd = b.addRunArtifact(exe);
     run_cmd.step.dependOn(b.getInstallStep());
